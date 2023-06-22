@@ -1,8 +1,8 @@
 # Keeper App Exercise
-Exercise from Web Development Bootcamp bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Exercise from Web Development Bootcamp bootstrapped with [ViteJS](https://vitejs.dev/).
 
 Run with:
 
-### `npm start`
+    npm start
 
-Open in your browser [http://localhost:3000](http://localhost:3000)
+Open in your browser [http://localhost:5173](http://localhost:5173)
