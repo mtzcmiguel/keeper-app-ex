@@ -19,6 +19,10 @@ function App() {
             }]);
     }
 
+    function deleteNote(noteId) {
+        setNotesList(notesList.filter(note => note.key !== noteId));
+    }
+
     return (
         <div>
             <Header />
@@ -33,6 +37,7 @@ function App() {
                         id={noteEntry.key}
                         title={noteEntry.title}
                         content={noteEntry.content}
+                        onDelete={deleteNote}
                     />
                 );
             })}
