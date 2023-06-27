@@ -59,3 +59,41 @@ footer p {
     white-space: pre-wrap;
     word-wrap: break-word;
 }
+
+.note button:active {
+    box-shadow: 0px 0px 3px 2px #c2cfd8;
+}
+
+.create-area {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 30px auto 20px auto;
+    padding: 20px;
+    position: relative;
+    width: 480px;
+}
+
+.create-area input,
+.create-area textarea {
+    border: 0;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    outline: none;
+    resize: none;
+    width: 100%;
+}
+
+.note button,
+.create-area button {
+    background-color: #f5ba13;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

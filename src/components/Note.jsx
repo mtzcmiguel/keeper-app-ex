@@ -1,4 +1,5 @@
 import React from 'react';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 function Note(props) {
     return (
@@ -8,7 +9,7 @@ function Note(props) {
             <button onClick={() => {
                 props.onDelete(props.id);
             }}>
-                Delete
+                <DeleteIcon />
             </button>
         </div>
     );
